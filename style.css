@@ -268,11 +268,16 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .about-containers,
 .about-details-container {
     display: flex;
+}
+
+.text-container {
+    text-align: center;
 }
 
 .about-pic {
@@ -357,8 +362,7 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 45%;
 }
 
 .project-title {
